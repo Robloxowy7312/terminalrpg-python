@@ -22,7 +22,7 @@ def save():
         "map": renderer.MAP
     }
 
-    filename = "RPG/save.json"
+    filename = "save.json"
     if os.path.exists(filename):
         print("Are you sure? This will erase your last save!")
         choice = input("Y/N > ")
@@ -42,7 +42,7 @@ def save():
 
 # GAME LOAD
 def load():
-    filename = "RPG/save.json"
+    filename = "save.json"
     if os.path.exists(filename):
         print("Are you sure? This will erase your unsaved progress!")
         choice = input("Y/N > ")
