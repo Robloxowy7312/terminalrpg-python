@@ -27,7 +27,7 @@ The project requires [Python 3.12.3](https://www.python.org/downloads/release/py
 ```bash
 pip install rich
 ```
-3. Unzip the rpg_(version).zip file. 
+3. Unzip the terminalrpg-python-main.zip file. 
 4. Run the main.py file by either double-clicking it or by opening the folder in your terminal and executing
 ```bash
 python3 main.py
